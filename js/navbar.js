@@ -29,7 +29,7 @@ $(function() {
 	}); 
 	
 	var sections = $("section");
-	var navigation_links = $("nav a");
+	var navigation_links = $("nav a.scroll_nav");
     var arrow= $("#arrow a");
 	
 	sections.waypoint({
