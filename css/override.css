@@ -14,3 +14,7 @@
 /*#parallax_3_mobile {
     background: url(../img/download/1.jpg) no-repeat center bottom;
 }*/
+
+#varaosakauppa_content .span4 {
+	height: 550px;
+}
