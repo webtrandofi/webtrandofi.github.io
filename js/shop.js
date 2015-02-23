@@ -5,9 +5,15 @@ $(document).ready(function(){
         success: function(results){
             console.log(results);
             results.response.posts.forEach(function(post){
-                post_html = '<div class="span4"><h3>' + post.title + '</h3>' + post.body + '</div>';
+                post_html = '<div class="span4">';
+                post_html = post_html + '<h3>' + post.title + '</h3>' ;
+                post_html = post_html+ post.body;
+                post_html = post_html+ '<button type="button" name="" value="" class="cta">LISÄÄ KORIIN</button>';
+                post_html = post_html +'</div>';
+                
                 $("#varaosakauppa_content").append(post_html);
             });
         }
     });
 })
+
