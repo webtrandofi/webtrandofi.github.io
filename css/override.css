@@ -9,6 +9,7 @@
 body {
 	font-weight: 300;
 	color: black;
+	font-size: 20px;
 }
 
 #home h1 {
@@ -21,6 +22,9 @@ body {
 	width: 300px;
 }
 
+.services_item h4 {
+	font-weight: bold;
+}
 /*#parallax_3_mobile {
     background: url(../img/download/1.jpg) no-repeat center bottom;
 }*/
