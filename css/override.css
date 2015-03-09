@@ -6,9 +6,19 @@
 	background: url(../img/download/tyre-car-fade.jpg) no-repeat center center;
 }*/
 
+body {
+	font-weight: 300;
+	color: black;
+}
+
 #home h1 {
-	font-size: 110px;
-	line-height: 100px;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 0px;
+}
+
+#home img {
+	width: 300px;
 }
 
 /*#parallax_3_mobile {
