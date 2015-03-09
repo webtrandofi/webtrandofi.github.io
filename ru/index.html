@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trando.fi</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/flexslider.css" rel="stylesheet">
+    <link href="../css/jquery.fancybox-1.3.4.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,200italic,300italic" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="../css/override.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="home">
+
+
+        <div class="container">
+
+            <div class="row ">
+                <div>
+
+                    <div id="logo"><img src="../img/logo.png" alt="Logo">
+                    </div>
+
+                    <h1>Trando Обслуживание всех марок автомобилей в Лауутаасаари.</h1>
+
+                    <div id="arrow" class="hidden-phone">
+                        <a href="#palvelut"></a>
+                    </div>
+                    <div id="home_bg" class="hidden-phone hidden-tablet" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="nav-container hidden-phone">
+        <nav>
+            <div id="logo_small">
+                <a href="#home"><img src="../img/logo_small.png" alt="Logo small">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#palvelut" class="scroll_nav">Услуги</a></li>
+                <li><a href="#yritys" class="scroll_nav">О компании</a></li>
+                <li><a href="shop.html">Товары</a></li>
+                <li><a href="#yhteystiedot" class="scroll_nav">Контакты</a></li>
+                <li><a href="#">Svenska</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    
+    <div class="container nav-mobile hidden-tablet hidden-desktop">
+        <select class="dropmenu" name="dropmenu" onChange="$.scrollTo(this.value, 1500, {easing:'easeInOutExpo', axis:'y'})">
+            <option value="" selected="selected">Menu</option>
+            <option value="#palvelut">Услуги</option>
+            <option value="#yritys">О компании</option>
+            <option value="#yhteystiedot">Контакты</option>
+        </select>
+    </div>
+
+    <section id="palvelut">
+        <!-- Header -->
+        <div class="header">
+            <div class="container visible-desktop" id="services_header" data-stellar-background-ratio="0.7" data-stellar-vertical-offset="0">
+                <h1>Услуги</h1>
+            </div>
+            <div class="container visible-tablet" id="services_header_mobile">
+                <h1>Услуги</h1>
+            </div>
+        </div>
+
+        <!-- /Header -->
+
+
+        <!-- Content -->
+
+        <div class="content">
+            <div class="container">
+
+                <div class="row">
+
+
+                    <div class="span12 centered">
+
+                        <h2>Трандо проводит ремонт и обслуживание всех марок автомобилей быстро и надёжно. Наши услуги:</h2>
+                        <hr>
+
+                    </div>
+
+                    <!-- Services list -->
+
+                    <div class="span12 margin90 services_list">
+
+                        <div class="row">
+                            <div class="span4 services_item">
+                                <h4>Ремонт</h4>
+                                <ul>
+                                    <li>Ремонт двигателя</li>
+                                    <li>Ремонт глушителя</li>
+                                    <li>Ремонт лобового стекла, заделка трещин -  замена</li>
+                                    <li>Ремонт кузова</li>
+                                    <li>Покраска</li>
+                                    <li>Диагностика неисправностей</li>
+                                    <li>Диагностика и ремонт электрооборудывания</li>
+                                    <li>Сварочные работы</li>
+                                </ul>
+                            </div>
+
+                            <div class="span4 services_item">
+                                <h4>Обслуживание</h4>
+                                <ul>
+                                    <li>Замена масла</li>
+                                    <li>Проход техосмотра</li>
+                                    <li>Подготовка автомобиля к техосмотру</li>
+                                    <li>Ремонт компрессора кондиционера</li>
+                                    <li>Ремонт тормозной системы</li>
+                                </ul>
+                            </div>
+
+                            <div class="span4 services_item">
+                                <h4>Шиномонтаж</h4>
+                                <ul>
+                                    <li>Замена шин, дисков</li>
+                                    <li>Новые шины</li>
+                                    <li>Установка</li>
+                                    <li>Балансировка колёс</li>
+                                    <li>Хранение</li>
+                                </ul>   
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- /Services list -->
+
+                </div>
+
+            </div>
+            <!-- /container -->
+
+        </div>
+        <!-- /content -->
+
+    </section>
+
+
+    <!-- ABOUT ############################################### -->
+    <section id="yritys">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="container visible-desktop" id="about_header" data-stellar-background-ratio="0.6" data-stellar-vertical-offset="0">
+                <h1>О компании</h1>
+            </div>
+            <div class="container visible-tablet" id="about_header_mobile">
+                <h1>О компании</h1>
+            </div>
+        </div>
+        <!-- /Header -->
+
+
+        <!-- Content -->
+        <div class="content">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- About Us -->
+
+                    <div class="span12">
+
+                        <h2 class="centered">О компании</h2>
+
+                        <div class="row margin90">
+                            <div class="span7">
+                                <p>Автомастерская "Трандо" предлагает услуги по ремонту автомобилей с 1992 года.Компания широко известна безупречным сервисом и гибкостью в работе.</p>
+                                <p>Наш офис располагается в центре города, в районе Лауттасааре, с хорошим транспортным сообщением. У нас современное диагностическое оборудование.</p>
+                                <p>Так же вы можете у нас приобрести запасные части и аксессуары. Есть возможность заказа необходимых запасных частей, в случае их отсутствия на складе. Все вопросы по наличию или заказу запчастей, вы можете уточнить по телефону, или написав нам.</p>
+                            </div>
+
+                            <div class="span4 offset1">
+                                <img src="../img/yritys/3.JPG" alt="img">
+                                <img src="../img/yritys/4.JPG" alt="img">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <!-- About Us -->
+
+                    <div class="span12">
+
+                        <h2 class="centered">Tax Free</h2>
+
+                        <div class="row margin90">
+                            <div class="span12 centered">
+                                <p><strong>Оформление Tax Free при покупках шин.</strong></p>
+                            </div>
+                            <div class="span12">
+                                
+                                <p>При покупке новых автомобильных шин, есть возможность оформить чек Такс -Фри, для получения на границе уплаченного вами налога НДС. Для оформления Tax Free понадобится ваш заграничный паспорт и документы на автомобиль, для которого вы купили шины, и собственником которого вы являетесь. Купленный товар не должен быть использован на территории Евросоюза.
+</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /content -->
+
+
+    </section>
+
+    <section id="yhteystiedot">
+        <div class="container">
+            <div class="row">
+                <div class="span12 centered">
+                    <h2>Контакты</h2>
+                    <p>
+                        <strong>Трандо</strong>
+                        <br>Лауттасаарентие 16
+                        <br>00210 Хельсинки
+                    </p>
+                    <p>
+                        <strong>Пабочий день Пн - Пт с 7  -19 </strong>
+                    </p>
+                    <p>
+                        info@trando.fi
+                        <br>09 684 5227
+                        <br>040 531 3010
+                    </p>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container" id="map"></div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="span12 centered">
+                    <p>© 2015 Trando.fi by TopDataSciences</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/jquery.scrollTo.js"></script>
+<script src="../js/waypoints.min.js"></script>
+<script src="../js/navbar.js"></script>
+<script src="../js/custom.js"></script>
+<script src="../js/jquery.stellar.js"></script>
+<script src="../js/jquery.flexslider.js"></script>
+<script src="../js/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="../js/jquery.gmap.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+<script type="text/javascript">
+$(function() {
+    $.stellar({
+        horizontalScrolling: false,
+        scrollProperty: 'scroll',
+        positionProperty: 'position',
+        verticalOffset: 0,
+        hideDistantElements: true,
+        viewportDetectionInterval: 100
+    });
+
+});
+</script>
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#portfolio1, #portfolio2, #portfolio3').flexslider({
+        slideshow: false
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#map").gMap({
+        controls: false,
+        scrollwheel: false,
+        draggable: false,
+        markers: [{
+            latitude: 60.1607168,
+            longitude: 24.8863079,
+            icon: {
+                image: "../img/pin.png",
+                iconsize: [32, 47],
+                iconanchor: [32, 47],
+                infowindowanchor: [12, 0]
+            }
+        }],
+        icon: {
+            image: "../img/pin.png",
+            iconsize: [26, 46],
+            iconanchor: [12, 46],
+            infowindowanchor: [12, 0]
+        },
+        latitude: 60.1607168,
+        longitude: 24.8863079,
+        zoom: 15
+    });
+});
+</script>
+
+</html>

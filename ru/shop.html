@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trando.fi</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/flexslider.css" rel="stylesheet">
+    <link href="../css/jquery.fancybox-1.3.4.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,200italic,300italic" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+
+      <link href="../css/override.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+    <div class="nav-container hidden-phone">
+        <nav class="sticky" style="top: 0px;">
+            <div id="logo_small">
+                <a href="index.html" class=""><img src="../img/logo_small.png" alt="Logo small">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html#palvelut" class="">Услуги</a></li>
+                <li><a href="index.html#yritys" class="">О компании</a></li>
+                <li><a class="selected">Товары</a></li>
+                <li><a href="index.html#yhteystiedot">Контакты</a></li>
+                <li><a href="#">Svenska</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <section id="about">
+      <div class="content">
+
+          <div class="container">
+
+              <div class="row">
+
+
+                  <div class="span12">
+
+                      <h2 class="centered">Товары</h2>
+
+                      <div class="row margin90" id="varaosakauppa_content">
+                        
+                      </div>
+
+                  </div>
+
+              </div>
+
+          </div><!-- /container -->
+      </div>
+
+
+  </section>
+
+    <section id="yhteystiedot">
+        <div class="container">
+            <div class="row">
+                <div class="span12 centered">
+                    <h2>Контакты</h2>
+                    <p>
+                        <strong>Трандо</strong>
+                        <br>Лауттасаарентие 16
+                        <br>00210 Хельсинки
+                    </p>
+                    <p>
+                        <strong>Пабочий день Пн - Пт с 7  -19 </strong>
+                    </p>
+                    <p>
+                        info@trando.fi
+                        <br>09 684 5227
+                        <br>040 531 3010
+                    </p>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section id="contact">
+    <div class="container" id="map"></div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="span12 centered">
+                <p>© 2015 Trando.fi by TopDataSciences</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+</body>
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/jquery.easing.1.3.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/jquery.scrollTo.js"></script>
+<script src="../js/waypoints.min.js"></script>
+<script src="../js/custom.js"></script>
+<script src="../js/jquery.stellar.js"></script>
+<script src="../js/jquery.flexslider.js"></script>
+<script src="../js/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="../js/jquery.gmap.js"></script>
+<script src="../js/shop.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+<script type="text/javascript">
+$(function() {
+    $.stellar({
+        horizontalScrolling: false,
+        scrollProperty: 'scroll',
+        positionProperty: 'position',
+        verticalOffset: 0,
+        hideDistantElements: true,
+        viewportDetectionInterval: 100
+    });
+
+});
+</script>
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#portfolio1, #portfolio2, #portfolio3').flexslider({
+        slideshow: false
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#map").gMap({
+        controls: false,
+        scrollwheel: false,
+        draggable: false,
+        markers: [{
+            latitude: 60.1607168,
+            longitude: 24.8863079,
+            icon: {
+                image: "../img/pin.png",
+                iconsize: [32, 47],
+                iconanchor: [32, 47],
+                infowindowanchor: [12, 0]
+            }
+        }],
+        icon: {
+            image: "../img/pin.png",
+            iconsize: [26, 46],
+            iconanchor: [12, 46],
+            infowindowanchor: [12, 0]
+        },
+        latitude: 60.1607168,
+        longitude: 24.8863079,
+        zoom: 15
+    });
+});
+</script>
+
+</html>
