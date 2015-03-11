@@ -4,39 +4,51 @@
 
 #home_bg {
 	background: url(../img/download/tyre-car-fade.jpg) no-repeat center center;
-}*/
+	}*/
 
-body {
-	font-weight: 300;
-	color: black;
-	font-size: 20px;
-}
+	body {
+		font-weight: 300;
+		color: black;
+		font-size: 20px;
+	}
 
-#home h1 {
-	font-size: 40px;
-	line-height: 40px;
-	letter-spacing: 0px;
-}
+	#home h1 {
+		font-size: 60px;
+		line-height: 60px;
+		letter-spacing: 0px;
+	}
 
-#home img {
-	width: 300px;
-}
+	#home h2{
 
-.services_item h4 {
-	font-weight: bold;
-}
+		font-size: 30px;
+		line-height: 30px;
+		letter-spacing: 0px;
+		color:white;
+		margin-top:0;
+		margin-bottom:0;
+		z-index: 3;
+		position:relative;
+	}
+
+	#home img {
+		width: 300px;
+	}
+
+	.services_item h4 {
+		font-weight: bold;
+	}
 /*#parallax_3_mobile {
     background: url(../img/download/1.jpg) no-repeat center bottom;
-}*/
+    }*/
 
-#varaosakauppa_content .span4 {
-	height: 550px;
-}
+    #varaosakauppa_content .span4 {
+    	height: 550px;
+    }
 
-#footer {
-	color: #555;
-}
+    #footer {
+    	color: #555;
+    }
 
-nav li a.flag {
-	margin-right: 4px;
-}
+    nav li a.flag {
+    	margin-right: 4px;
+    }
